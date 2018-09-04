@@ -46,7 +46,7 @@ public class Cumulative_Histogram_Plugin implements PlugInFilter {
         cumulHistIp.setValue(255);
         cumulHistIp.fill();
 
-        // Unngår if-condition in for loop
+        // Avoiding if-condition in for loop
         cumulHist[0] = hist[0];
 
         for (int i = 1; i < hist.length; i++) {
